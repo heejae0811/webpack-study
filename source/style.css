@@ -2,3 +2,8 @@ body {
     background-color: paleturquoise;
     color: tomato;
 }
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
