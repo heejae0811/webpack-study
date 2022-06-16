@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    mode: 'production',
+    mode: 'development',
     entry: {
         index: './source/js/index.js',
         about: './source/js/about.js'
@@ -23,7 +23,8 @@ module.exports = {
                     {
                         loader: 'file-loader',
                         options: {
-                            name: '[name].[ext]'
+                            name: '[name].[ext]',
+                            publicPath: 'public'
                         }
                     }
                 ],
