@@ -1,9 +1,16 @@
 body {
     background-color: paleturquoise;
+}
+
+h1 {
     color: tomato;
 }
 
+h2 {
+    color: black;
+}
+
 a {
-    color: #fff;
+    color: white;
     text-decoration: none;
 }
