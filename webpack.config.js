@@ -1,11 +1,15 @@
 const path = require('path');
+const sass = require("sass");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
     mode: 'development',
     entry: {
         index: './source/js/index.js',
-        about: './source/js/about.js'
+        about: './source/js/about.js',
+        about_style: './source/css/about_style.scss',
+        index_style: './source/css/index_style.scss'
     },
     output: {
         path: path.resolve(__dirname, './public/'),
@@ -14,8 +18,18 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.css$/i,
-                use: ['style-loader', 'css-loader']
+                test: /\.scss?$/,
+                exclude: /node_module/,
+                use: [
+                    MiniCssExtractPlugin.loader,
+                    "css-loader",
+                    {
+                        loader: "sass-loader",
+                        options: {
+                            implementation: sass, //dart-sass 적용
+                        },
+                    },
+                ],
             },
             {
                 test: /\.(png|jpe?g|gif|svg)$/i,
@@ -41,6 +55,9 @@ module.exports = {
             template: './source/html/about.html',
             filename: './html/about.html',
             chunks: ['about']
+        }),
+        new MiniCssExtractPlugin({
+            filename: "./css/[name].css",
         }),
     ]
 }

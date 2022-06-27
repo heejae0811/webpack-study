@@ -1,0 +1,25 @@
+body {
+    background-color: paleturquoise;
+}
+
+h1 {
+    color: tomato;
+
+    span {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+        /*background: url('./../../public/logo.png') no-repeat center center / cover; */
+        outline:1px solid red;
+    }
+}
+
+h2 {
+    color: black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
