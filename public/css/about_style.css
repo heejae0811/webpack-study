@@ -1,0 +1,27 @@
+/*!**************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./source/css/about_style.scss ***!
+  \**************************************************************************************************************************************************/
+body {
+  background-color: paleturquoise;
+}
+
+h1 {
+  color: tomato;
+}
+h1 span {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  /*background: url('./../../public/logo.png') no-repeat center center / cover; */
+  outline: 1px solid red;
+}
+
+h2 {
+  color: black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
