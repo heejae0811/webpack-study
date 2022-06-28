@@ -19,26 +19,6 @@ eval("/* module decorator */ module = __webpack_require__.nmd(module);\nvar __WE
 
 /***/ }),
 
-/***/ "./source/images/logo.png":
-/*!********************************!*\
-  !*** ./source/images/logo.png ***!
-  \********************************/
-/***/ (() => {
-
-eval("throw new Error(\"Module parse failed: Unexpected character '�' (1:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n(Source code omitted for this binary file)\");\n\n//# sourceURL=webpack://webpack-study/./source/images/logo.png?");
-
-/***/ }),
-
-/***/ "./source/images/webpack.png":
-/*!***********************************!*\
-  !*** ./source/images/webpack.png ***!
-  \***********************************/
-/***/ (() => {
-
-eval("throw new Error(\"Module parse failed: Unexpected character '�' (1:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n(Source code omitted for this binary file)\");\n\n//# sourceURL=webpack://webpack-study/./source/images/webpack.png?");
-
-/***/ }),
-
 /***/ "./source/js/about.js":
 /*!****************************!*\
   !*** ./source/js/about.js ***!
@@ -46,7 +26,7 @@ eval("throw new Error(\"Module parse failed: Unexpected character '�' (1:0)\\n
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hello_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hello.js */ \"./source/js/hello.js\");\n/* harmony import */ var _world_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./world.js */ \"./source/js/world.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _images_logo_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../images/logo.png */ \"./source/images/logo.png\");\n/* harmony import */ var _images_logo_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_images_logo_png__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _images_webpack_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../images/webpack.png */ \"./source/images/webpack.png\");\n/* harmony import */ var _images_webpack_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_images_webpack_png__WEBPACK_IMPORTED_MODULE_4__);\n\r\n\r\n\r\n\r\n\r\n\r\ndocument.querySelector('#root').innerHTML = lodash__WEBPACK_IMPORTED_MODULE_2___default().join([_hello_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"], _world_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]], ' ');\n\n//# sourceURL=webpack://webpack-study/./source/js/about.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hello_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hello.js */ \"./source/js/hello.js\");\n/* harmony import */ var _world_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./world.js */ \"./source/js/world.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_2__);\n\r\n\r\n\r\n\r\ndocument.querySelector('#root').innerHTML = lodash__WEBPACK_IMPORTED_MODULE_2___default().join([_hello_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"], _world_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]], ' ');\n\n//# sourceURL=webpack://webpack-study/./source/js/about.js?");
 
 /***/ }),
 
