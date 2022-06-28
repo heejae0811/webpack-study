@@ -13,7 +13,7 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, './public/'),
-        filename: '[name]_bundle.js'
+        filename: './js/[name].js'
     },
     module: {
         rules: [
@@ -38,7 +38,7 @@ module.exports = {
                         loader: 'file-loader',
                         options: {
                             name: '[name].[ext]',
-                            publicPath: 'public'
+                            publicPath: './public/images'
                         }
                     }
                 ],

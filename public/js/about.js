@@ -16,7 +16,7 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"public/logo.png\");\n\n//# sourceURL=webpack://webpack-study/./source/images/logo.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"./public/images/logo.png\");\n\n//# sourceURL=webpack://webpack-study/./source/images/logo.png?");
 
 /***/ }),
 
@@ -27,7 +27,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"public/webpack.png\");\n\n//# sourceURL=webpack://webpack-study/./source/images/webpack.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"./public/images/webpack.png\");\n\n//# sourceURL=webpack://webpack-study/./source/images/webpack.png?");
 
 /***/ }),
 
@@ -41,6 +41,17 @@ eval("/* module decorator */ module = __webpack_require__.nmd(module);\nvar __WE
 
 /***/ }),
 
+/***/ "./source/js/about.js":
+/*!****************************!*\
+  !*** ./source/js/about.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hello_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hello.js */ \"./source/js/hello.js\");\n/* harmony import */ var _world_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./world.js */ \"./source/js/world.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _images_logo_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../images/logo.png */ \"./source/images/logo.png\");\n/* harmony import */ var _images_webpack_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../images/webpack.png */ \"./source/images/webpack.png\");\n\r\n\r\n\r\n\r\n\r\n\r\ndocument.querySelector('#root').innerHTML = lodash__WEBPACK_IMPORTED_MODULE_2___default().join([_hello_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"], _world_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]], ' ');\n\n//# sourceURL=webpack://webpack-study/./source/js/about.js?");
+
+/***/ }),
+
 /***/ "./source/js/hello.js":
 /*!****************************!*\
   !*** ./source/js/hello.js ***!
@@ -49,17 +60,6 @@ eval("/* module decorator */ module = __webpack_require__.nmd(module);\nvar __WE
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nvar word = 'Hello';\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (word);\n\n//# sourceURL=webpack://webpack-study/./source/js/hello.js?");
-
-/***/ }),
-
-/***/ "./source/js/index.js":
-/*!****************************!*\
-  !*** ./source/js/index.js ***!
-  \****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hello_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hello.js */ \"./source/js/hello.js\");\n/* harmony import */ var _world_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./world.js */ \"./source/js/world.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _images_logo_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../images/logo.png */ \"./source/images/logo.png\");\n/* harmony import */ var _images_webpack_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../images/webpack.png */ \"./source/images/webpack.png\");\n\r\n\r\n\r\n\r\n\r\n\r\ndocument.querySelector('#root').innerHTML = lodash__WEBPACK_IMPORTED_MODULE_2___default().join([_hello_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"], _world_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]], ' ');\n\n//# sourceURL=webpack://webpack-study/./source/js/index.js?");
 
 /***/ }),
 
@@ -170,7 +170,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./source/js/index.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./source/js/about.js");
 /******/ 	
 /******/ })()
 ;
