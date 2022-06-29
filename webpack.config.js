@@ -32,6 +32,14 @@ module.exports = {
                     },
                 ],
             },
+            // {
+            //     test: /\.(png|jpe?g|gif)$/i,
+            //     loader: 'file-loader',
+            //     options: {
+            //         publicPath: './images',
+            //         name: 'images/[name].[ext]?[hash]',
+            //     }
+            // },
         ]
     },
     plugins: [
