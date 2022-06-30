@@ -19,14 +19,36 @@ eval("/* module decorator */ module = __webpack_require__.nmd(module);\nvar __WE
 
 /***/ }),
 
-/***/ "./source/js/about.js":
-/*!****************************!*\
-  !*** ./source/js/about.js ***!
-  \****************************/
+/***/ "./source/css/about_style.scss":
+/*!*************************************!*\
+  !*** ./source/css/about_style.scss ***!
+  \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hello_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hello.js */ \"./source/js/hello.js\");\n/* harmony import */ var _world_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./world.js */ \"./source/js/world.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_2__);\n\r\n\r\n\r\n\r\ndocument.querySelector('#root').innerHTML = lodash__WEBPACK_IMPORTED_MODULE_2___default().join([_hello_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"], _world_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]], ' ');\n\n//# sourceURL=webpack://webpack-study/./source/js/about.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://webpack-study/./source/css/about_style.scss?");
+
+/***/ }),
+
+/***/ "./source/css/index_style.scss":
+/*!*************************************!*\
+  !*** ./source/css/index_style.scss ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://webpack-study/./source/css/index_style.scss?");
+
+/***/ }),
+
+/***/ "./source/js/app.js":
+/*!**************************!*\
+  !*** ./source/js/app.js ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_about_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../css/about_style.scss */ \"./source/css/about_style.scss\");\n/* harmony import */ var _css_index_style_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../css/index_style.scss */ \"./source/css/index_style.scss\");\n/* harmony import */ var _hello_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./hello.js */ \"./source/js/hello.js\");\n/* harmony import */ var _world_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./world.js */ \"./source/js/world.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_4__);\n\r\n\r\n\r\n\r\n\r\n\r\ndocument.querySelector('#root').innerHTML = lodash__WEBPACK_IMPORTED_MODULE_4___default().join([_hello_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"], _world_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"]], ' ');\n\n//# sourceURL=webpack://webpack-study/./source/js/app.js?");
 
 /***/ }),
 
@@ -148,7 +170,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./source/js/about.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./source/js/app.js");
 /******/ 	
 /******/ })()
 ;

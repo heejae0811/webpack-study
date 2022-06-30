@@ -7,14 +7,11 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
     mode: 'development',
     entry: {
-        index: './source/js/index.js',
-        about: './source/js/about.js',
-        about_style: './source/css/about_style.scss',
-        index_style: './source/css/index_style.scss'
+        app: './source/js/app.js'
     },
     output: {
         path: path.resolve(__dirname, './public/'),
-        filename: './js/[name].js'
+        filename: './js/[name]_bundle.js'
     },
     module: {
         rules: [
@@ -54,7 +51,7 @@ module.exports = {
             chunks: ['about']
         }),
         new MiniCssExtractPlugin({
-            filename: "./css/[name].css",
+            filename: "./css/[name]_bundle.css",
         }),
         new CopyWebpackPlugin({ patterns: [
                 { from: './source/images/', to: './images/', toType:'dir' }

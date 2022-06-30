@@ -1,0 +1,46 @@
+/*!**************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./source/css/about_style.scss ***!
+  \**************************************************************************************************************************************************/
+.about {
+  background-color: paleturquoise;
+}
+.about h1 {
+  color: tomato;
+}
+.about h1 span {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  background: url(../7b5c72cf25016286a12d.png) no-repeat center center/cover;
+}
+.about h2 {
+  color: black;
+}
+.about a {
+  color: white;
+  text-decoration: none;
+}
+/*!**************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./source/css/index_style.scss ***!
+  \**************************************************************************************************************************************************/
+.index {
+  background-color: cadetblue;
+}
+.index h1 {
+  color: tomato;
+}
+.index h1 span {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  background: url(../7b5c72cf25016286a12d.png) no-repeat center center/cover;
+}
+.index h2 {
+  color: black;
+}
+.index a {
+  color: white;
+  text-decoration: none;
+}
